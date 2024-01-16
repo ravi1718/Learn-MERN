@@ -7,9 +7,11 @@ function App() {
   return (
     <center class="todo-container">
       <AppName />
-      <AddTodo />
+      <AddTodo /> 
+      <div class="items-container">
       <TodoItem1 />
       <TodoItem2 />
+      </div>
     </center>
   );
 }
